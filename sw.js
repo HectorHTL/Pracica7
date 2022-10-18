@@ -8,8 +8,8 @@ self.addEventListener('install',(event)=>{
     const promiseCache = caches.open(STATIC_CACHE_NAME).then((cache) => {
         return cache.addAll(
             [
-                '/',
-                'index.html',
+                '/hectorhtl.github.io/',
+                '/hectorhtl.github.io/index.html',
 
                 
 
